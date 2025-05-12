@@ -1,0 +1,27 @@
+// Create web server
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const fs = require('fs');
+const path = require('path');
+const { v4: uuidv4 } = require('uuid');
+const { exec } = require('child_process');
+const { spawn } = require('child_process');
+const { Readable } = require('stream');
+const { createServer } = require('http');
+const { Server } = require('socket.io');
+const { createReadStream } = require('fs');
+const { createWriteStream } = require('fs');
+const { pipeline } = require('stream');
+const { finished } = require('stream');
+const { promisify } = require('util');
+const { execFile } = require('child_process');
+const { spawnSync } = require('child_process');
+const { spawn } = require('child_process');
+const { Readable } = require('stream');
+const { Writable } = require('stream');
+const { Transform } = require('stream');
+const { PassThrough } = require('stream');
+const { pipeline } = require('stream');
+const { finished } = require('stream');
